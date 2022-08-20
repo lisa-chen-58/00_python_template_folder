@@ -1,3 +1,10 @@
+# PROJECT ALREADY CONNECTED TO GITHUB
+
+    # git add .
+    # git commit -m"<add a descriptive>"
+    # git push
+
+
 # FOR EXISTING PROJECT (Created)
 
     # create a repository on GitHub named your project folder name
@@ -12,12 +19,6 @@
 
 
 
-# Already connected project to GitHub
-
-    # git add .
-    # git commit -m"<add a descriptive>"
-    # git push
-
 
 # CLone a repository on github
 
@@ -26,4 +27,3 @@
 # force remove directory(DO AT OWN RISK)
 
     # rm -rf <foldername or filename>
-
