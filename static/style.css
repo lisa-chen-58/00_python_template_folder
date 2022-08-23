@@ -5,6 +5,7 @@
 body{
     width: 100%;
 }
+<<<<<<< HEAD
 .row{
     display:flex;
     justify-content: center;
@@ -15,3 +16,5 @@ body{
     height: 50px;
     border: 1px solid black;
 }
+=======
+>>>>>>> a4d1b96848a3b06469ed8fb6ebd33378cb3d59cb

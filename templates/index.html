@@ -39,22 +39,18 @@
     {% for i in range(row): %}
     <div class="row">
 
-        {% for j in range(col) %}
+            {% for j in range(col) %}
 
-            {% if (i+j)%2 == 0: %}
-
-            <div class="checker" style="background-color: {{color1}}"></div>
-            {% else: %}
-            <div class="checker" style="background-color: {{color2}}"></div>
+                {% if (i+j)%2 == 0: %}
+                <div class="checker" style="background-color: {{color1}};"></div>
+                {% else: %}
+                <div class="checker" style="background-color: {{color2}};"></div>
+                {% endif %}
             
-            {% endif %}
-        
-        {% endfor %}
-
-    {% endfor %}
-
+            {% endfor %}
 
     </div>
+    {% endfor %}
 
 
 </body>
