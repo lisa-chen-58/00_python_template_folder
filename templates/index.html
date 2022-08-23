@@ -6,17 +6,52 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Template</title>
 
+        <!-- DONT FORGET TO CHANGE TITLE -->
+        <title>Playground</title>
+    
     <!-- CSS -->
     <link rel="stylesheet" href="/static/style.css">
     
     <!-- Bootstrap CSS -->
-    <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”rel=”nofollow” integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm” crossorigin=”anonymous”>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- JavaScript -->
-    <script type="text/javascript" src="../js/script.js"></script>
+
+<!-- <style>
+        .{{color1}}{
+            background-color: {{color1}};
+        }
+        .{{color2}}{
+            background-color: {{color2}};
+        }
+
+    </style> -->
 
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div class="text-center">
+        <h1 class="text-center text-light bg-dark">Hello</h1>
+        <p>INPUTS</p>
+        <p>Row value: {{row}}</p>
+        <p>Column value: {{col}}</p>
+        <p>Color1 value: {{color1}}</p>
+        <p>Color2 value: {{color2}}</p>
+    </div>
+    {% for i in range(row): %}
+    <div class="row">
+
+            {% for j in range(col) %}
+
+                {% if (i+j)%2 == 0: %}
+                <div class="checker" style="background-color: {{color1}};"></div>
+                {% else: %}
+                <div class="checker" style="background-color: {{color2}};"></div>
+                {% endif %}
+            
+            {% endfor %}
+
+    </div>
+    {% endfor %}
+
+
 </body>
 </html>
