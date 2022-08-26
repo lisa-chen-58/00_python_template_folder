@@ -18,3 +18,10 @@ cp -r directory-name-1 directory-name-2
 
 # ------------- RENAME A FOLDER ------------- :
 mv directory-name-1 directory-name-2
+
+# -------------- MOVE A FOLDER ------------:
+mv directory-name path-name
+# (example: mv static/ flask_app)
+
+# FORCE REMOVE (DO NOT DO THIS UNLESS YOU REALLY WANT TO!) 
+rm -rf <filename or foldername>
