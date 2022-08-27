@@ -1,20 +1,20 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+body {
     width: 100%;
 }
-<<<<<<< HEAD
-.row{
-    display:flex;
+
+.row {
+    display: flex;
     justify-content: center;
-    min-height:20px;
+    min-height: 20px;
 }
-.checker{
+
+.checker {
     width: 50px;
     height: 50px;
     border: 1px solid black;
 }
-=======
->>>>>>> a4d1b96848a3b06469ed8fb6ebd33378cb3d59cb
