@@ -8,9 +8,7 @@
     # **Do this in every Project (Aka Assignment, AKA repository)Folder**
     
     # ---------- STEP ONE INSTALL FLASK AND VIRTUAL ENVIRONMENT----------
-    pipenv install flask PyMySQL
-
-    # (EVENTUALLY IT WILL BE pipenv install flask PyMySQL flask-bcrypt)
+    pipenv install flask PyMySQL flask-bcrypt
 
     # ---------- STEP TWO - ACTIVATE VIRTUAL ENVIRONMENT ----------
     pipenv shell
