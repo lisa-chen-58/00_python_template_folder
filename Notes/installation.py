@@ -18,3 +18,8 @@
 
 python server.py 
 # in some cases for macs, you might need python3 server.py
+
+
+# ------- TROUBLESHOOTING
+# Delete a virtual environment via pipenv
+pipenv --rm 
